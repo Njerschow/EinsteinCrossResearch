@@ -1,200 +1,400 @@
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_0 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 12.4110418063 and 12.4380418063 and p.dec between -27.8873055556 and -27.8603055556' 
 
+java -jar casjobs.jar extract -b object_0 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_1 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 12.6087584261 and 12.6231584261 and p.dec between -17.6763111111 and -17.6619111111' 
+
+java -jar casjobs.jar extract -b object_1 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_2 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 21.174000148 and 21.196000148 and p.dec between 3.85566666667 and 3.87766666667' 
 
+java -jar casjobs.jar extract -b object_2 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_3 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 21.186300152 and 21.193700152 and p.dec between 3.84796666667 and 3.85536666667' 
+
+java -jar casjobs.jar extract -b object_3 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_4 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 22.8031042113 and 22.8086042113 and p.dec between 43.9675666667 and 43.9730666667' 
 
+java -jar casjobs.jar extract -b object_4 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_5 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 23.6449751189 and 23.6522751189 and p.dec between -9.52112222222 and -9.51382222222' 
+
+java -jar casjobs.jar extract -b object_5 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_6 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 26.307550055 and 26.329950055 and p.dec between -9.76592222222 and -9.74352222222' 
 
+java -jar casjobs.jar extract -b object_6 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_7 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 29.6665668048 and 29.6787668048 and p.dec between -43.4239333333 and -43.4117333333' 
+
+java -jar casjobs.jar extract -b object_7 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_8 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 35.2711458516 and 35.2745458516 and p.dec between 35.9354611111 and 35.9388611111' 
 
+java -jar casjobs.jar extract -b object_8 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_9 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 38.127666777 and 38.148166777 and p.dec between -21.3008055556 and -21.2803055556' 
+
+java -jar casjobs.jar extract -b object_9 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_10 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 41.6361751137 and 41.6480751137 and p.dec between -8.43267222222 and -8.42077222222' 
 
+java -jar casjobs.jar extract -b object_10 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_11 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 45.618250103 and 45.639250103 and p.dec between 0.0900833333333 and 0.111083333333' 
+
+java -jar casjobs.jar extract -b object_11 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_12 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 53.1410501274 and 53.1774501274 and p.dec between -27.9662277778 and -27.9298277778' 
 
+java -jar casjobs.jar extract -b object_12 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_13 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 63.6452084591 and 63.6692084591 and p.dec between 5.56697222222 and 5.59097222222' 
+
+java -jar casjobs.jar extract -b object_13 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_14 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 69.549983383 and 69.574183383 and p.dec between -12.2994333333 and -12.2752333333' 
 
+java -jar casjobs.jar extract -b object_14 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_15 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 72.0848750733 and 72.0983750733 and p.dec between 12.4586416667 and 12.4721416667' 
+
+java -jar casjobs.jar extract -b object_15 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_16 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 78.5416667026 and 78.5481667026 and p.dec between -33.4428333333 and -33.4363333333' 
 
+java -jar casjobs.jar extract -b object_16 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_17 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 98.7954917077 and 98.8070917077 and p.dec between 51.9447 and 51.9563' 
+
+java -jar casjobs.jar extract -b object_17 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_18 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 109.007616679 and 109.022216679 and p.dec between 47.1399222222 and 47.1545222222' 
 
+java -jar casjobs.jar extract -b object_18 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_19 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 115.710683504 and 115.715983504 and p.dec between 36.5761555556 and 36.5814555556' 
+
+java -jar casjobs.jar extract -b object_19 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_20 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 116.71540851 and 116.72650851 and p.dec between 44.0587 and 44.0698' 
 
+java -jar casjobs.jar extract -b object_20 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_21 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 117.919250138 and 117.926250138 and p.dec between 27.271875 and 27.278875' 
+
+java -jar casjobs.jar extract -b object_21 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_22 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 121.591750079 and 121.605750079 and p.dec between 20.1018611111 and 20.1158611111' 
 
+java -jar casjobs.jar extract -b object_22 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_23 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 123.375616771 and 123.385216771 and p.dec between 25.7460888889 and 25.7556888889' 
+
+java -jar casjobs.jar extract -b object_23 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_24 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 125.398766797 and 125.427066797 and p.dec between 12.2772388889 and 12.3055388889' 
 
+java -jar casjobs.jar extract -b object_24 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_25 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 127.921391805 and 127.925191805 and p.dec between 52.7528222222 and 52.7566222222' 
+
+java -jar casjobs.jar extract -b object_25 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_26 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 133.219850179 and 133.226650179 and p.dec between 5.25085 and 5.25765' 
 
+java -jar casjobs.jar extract -b object_26 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_27 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 135.880550116 and 135.910450116 and p.dec between 50.45705 and 50.48695' 
+
+java -jar casjobs.jar extract -b object_27 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_28 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 137.852233425 and 137.876933425 and p.dec between 5.83542777778 and 5.86012777778' 
 
+java -jar casjobs.jar extract -b object_28 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_29 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 138.248525003 and 138.260225004 and p.dec between 52.9854916667 and 52.9971916667' 
+
+java -jar casjobs.jar extract -b object_29 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_30 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 140.268525043 and 140.338225043 and p.dec between 45.4497055556 and 45.5194055556' 
 
+java -jar casjobs.jar extract -b object_30 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_31 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 141.224041853 and 141.241541853 and p.dec between 2.31483333333 and 2.33233333333' 
+
+java -jar casjobs.jar extract -b object_31 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_32 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 147.838491742 and 147.849591742 and p.dec between 26.5817 and 26.5928' 
 
+java -jar casjobs.jar extract -b object_32 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_33 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 148.745041667 and 148.755041667 and p.dec between -1.50638888889 and -1.49638888889' 
+
+java -jar casjobs.jar extract -b object_33 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_34 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 150.305283403 and 150.367883403 and p.dec between 55.8657555556 and 55.9283555556' 
 
+java -jar casjobs.jar extract -b object_34 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_35 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 150.355108429 and 150.383308429 and p.dec between 50.4517055556 and 50.4799055556' 
+
+java -jar casjobs.jar extract -b object_35 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_36 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 151.096050083 and 151.111450083 and p.dec between 12.4818277778 and 12.4972277778' 
 
+java -jar casjobs.jar extract -b object_36 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_37 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 151.06550845 and 151.22540845 and p.dec between 41.1319388889 and 41.2918388889' 
+
+java -jar casjobs.jar extract -b object_37 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_38 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 152.854525098 and 152.891225098 and p.dec between 1.70478888889 and 1.74148888889' 
 
+java -jar casjobs.jar extract -b object_38 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_39 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 153.057758386 and 153.073158386 and p.dec between -3.12492222222 and -3.10952222222' 
+
+java -jar casjobs.jar extract -b object_39 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_40 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 154.346291747 and 154.354791747 and p.dec between -20.7876944444 and -20.7791944444' 
 
+java -jar casjobs.jar extract -b object_40 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_41 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 155.290216703 and 155.301616703 and p.dec between 49.2194111111 and 49.2308111111' 
+
+java -jar casjobs.jar extract -b object_41 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_42 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 156.136216782 and 156.152116782 and p.dec between 47.1451055556 and 47.1610055556' 
 
+java -jar casjobs.jar extract -b object_42 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_43 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 157.193125044 and 157.418125045 and p.dec between 26.2796666667 and 26.5046666667' 
+
+java -jar casjobs.jar extract -b object_43 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_44 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 158.383750114 and 158.400250114 and p.dec between 7.18216666667 and 7.19866666667' 
 
+java -jar casjobs.jar extract -b object_44 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_45 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 166.623425111 and 166.655325111 and p.dec between -18.3726722222 and -18.3407722222' 
+
+java -jar casjobs.jar extract -b object_45 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_46 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 169.55923339 and 169.58243339 and p.dec between 7.75442777778 and 7.77762777778' 
 
+java -jar casjobs.jar extract -b object_46 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_47 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 172.496841667 and 172.504241667 and p.dec between 38.1971611111 and 38.2045611111' 
+
+java -jar casjobs.jar extract -b object_47 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_48 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 172.946000172 and 172.984000172 and p.dec between -12.5515 and -12.5135' 
 
+java -jar casjobs.jar extract -b object_48 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_49 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 172.974833522 and 172.995833522 and p.dec between 4.92 and 4.941' 
+
+java -jar casjobs.jar extract -b object_49 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_50 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 174.508716679 and 174.522116679 and p.dec between 3.24274444444 and 3.25614444444' 
 
+java -jar casjobs.jar extract -b object_50 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_51 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 178.812541724 and 178.832041724 and p.dec between 63.7630277778 and 63.7825277778' 
+
+java -jar casjobs.jar extract -b object_51 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_52 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 178.818300061 and 178.834200061 and p.dec between 19.6537722222 and 19.6696722222' 
 
+java -jar casjobs.jar extract -b object_52 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_53 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 181.609041765 and 181.638041765 and p.dec between 43.5237222222 and 43.5527222222' 
+
+java -jar casjobs.jar extract -b object_53 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_54 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 182.735766857 and 182.740566857 and p.dec between 9.90471111111 and 9.90951111111' 
 
+java -jar casjobs.jar extract -b object_54 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_55 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 186.527450027 and 186.540050027 and p.dec between -0.106855555556 and -0.0942555555556' 
+
+java -jar casjobs.jar extract -b object_55 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_56 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 189.19831683 and 189.21001683 and p.dec between 62.2002611111 and 62.2119611111' 
 
+java -jar casjobs.jar extract -b object_56 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_57 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 193.271766689 and 193.284066689 and p.dec between -29.2478166667 and -29.2355166667' 
+
+java -jar casjobs.jar extract -b object_57 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_58 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 203.088550075 and 203.099950075 and p.dec between 3.78871666667 and 3.80011666667' 
 
+java -jar casjobs.jar extract -b object_58 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_59 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 203.886808449 and 203.903108449 and p.dec between 1.29337777778 and 1.30967777778' 
+
+java -jar casjobs.jar extract -b object_59 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_60 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 208.269408355 and 208.283508354 and p.dec between 11.6275888889 and 11.6416888889' 
 
+java -jar casjobs.jar extract -b object_60 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_61 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 208.924600145 and 208.936900145 and p.dec between -22.9625111111 and -22.9502111111' 
+
+java -jar casjobs.jar extract -b object_61 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_62 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 210.389575118 and 210.406675119 and p.dec between 15.2152277778 and 15.2323277778' 
 
+java -jar casjobs.jar extract -b object_62 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_63 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 210.610833427 and 210.624333427 and p.dec between 63.3525 and 63.366' 
+
+java -jar casjobs.jar extract -b object_63 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_64 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 211.593516749 and 211.613316749 and p.dec between 61.4347944444 and 61.4545944444' 
 
+java -jar casjobs.jar extract -b object_64 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_65 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 212.822666732 and 212.840666732 and p.dec between 52.1823888889 and 52.2003888889' 
+
+java -jar casjobs.jar extract -b object_65 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_66 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 213.936583488 and 213.950083488 and p.dec between 11.4880833333 and 11.5015833333' 
 
+java -jar casjobs.jar extract -b object_66 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_67 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 214.093800084 and 214.116200084 and p.dec between 52.2307444444 and 52.2531444444' 
+
+java -jar casjobs.jar extract -b object_67 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_68 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 214.387975122 and 214.416275122 and p.dec between 52.4302944444 and 52.4585944444' 
 
+java -jar casjobs.jar extract -b object_68 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_69 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 216.15030846 and 216.16710846 and p.dec between 22.9251 and 22.9419' 
+
+java -jar casjobs.jar extract -b object_69 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_70 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 230.428841816 and 230.444741816 and p.dec between 52.90555 and 52.92145' 
 
+java -jar casjobs.jar extract -b object_70 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_71 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 235.831183403 and 235.842983403 and p.dec between 53.8585444444 and 53.8703444444' 
+
+java -jar casjobs.jar extract -b object_71 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_72 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 237.293041708 and 237.310041708 and p.dec between 30.7794444444 and 30.7964444444' 
 
+java -jar casjobs.jar extract -b object_72 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_73 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 239.297608373 and 239.301808373 and p.dec between 37.3578722222 and 37.3620722222' 
+
+java -jar casjobs.jar extract -b object_73 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_74 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 240.411541801 and 240.425541802 and p.dec between 43.2729444444 and 43.2869444444' 
 
+java -jar casjobs.jar extract -b object_74 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_75 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 242.296816713 and 242.319516713 and p.dec between 65.5300388889 and 65.5527388889' 
+
+java -jar casjobs.jar extract -b object_75 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_76 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 247.546400043 and 247.561100043 and p.dec between 82.4923722222 and 82.5070722222' 
 
+java -jar casjobs.jar extract -b object_76 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_77 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 247.715783509 and 247.723383509 and p.dec between 82.4995333333 and 82.5071333333' 
+
+java -jar casjobs.jar extract -b object_77 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_78 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 248.232983526 and 248.247683526 and p.dec between -0.563211111111 and -0.548511111111' 
 
+java -jar casjobs.jar extract -b object_78 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_79 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 248.450375163 and 248.457875163 and p.dec between 31.5662222222 and 31.5737222222' 
+
+java -jar casjobs.jar extract -b object_79 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_80 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 252.674850145 and 252.687150145 and p.dec between 42.85635 and 42.86865' 
 
+java -jar casjobs.jar extract -b object_80 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_81 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 253.663791806 and 253.684791806 and p.dec between 13.7622777778 and 13.7832777778' 
+
+java -jar casjobs.jar extract -b object_81 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_82 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 271.940033489 and 271.949133489 and p.dec between 45.9943388889 and 46.0034388889' 
 
+java -jar casjobs.jar extract -b object_82 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_83 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 278.4114668 and 278.4213668 and p.dec between -21.0659777778 and -21.0560777778' 
+
+java -jar casjobs.jar extract -b object_83 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_84 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 279.613800095 and 279.623700095 and p.dec between -34.4665055556 and -34.4566055556' 
 
+java -jar casjobs.jar extract -b object_84 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_85 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 293.623958437 and 293.633958436 and p.dec between 50.4182222222 and 50.4282222222' 
+
+java -jar casjobs.jar extract -b object_85 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_86 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 294.599958417 and 294.609958417 and p.dec between 66.8095 and 66.8195' 
 
+java -jar casjobs.jar extract -b object_86 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_87 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 301.023558357 and 301.035358357 and p.dec between -13.8310944444 and -13.8192944444' 
+
+java -jar casjobs.jar extract -b object_87 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_88 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 304.80802506 and 304.843225061 and p.dec between 11.4347055556 and 11.4699055556' 
 
+java -jar casjobs.jar extract -b object_88 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_89 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 306.536758368 and 306.550158368 and p.dec between -45.6142277778 and -45.6008277778' 
+
+java -jar casjobs.jar extract -b object_89 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_90 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 308.413683474 and 308.436983474 and p.dec between -47.4069277778 and -47.3836277778' 
 
+java -jar casjobs.jar extract -b object_90 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_91 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 311.821091735 and 311.848491734 and p.dec between 26.7199666667 and 26.7473666667' 
+
+java -jar casjobs.jar extract -b object_91 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_92 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 317.702233513 and 317.747933513 and p.dec between 21.4940111111 and 21.5397111111' 
 
+java -jar casjobs.jar extract -b object_92 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_93 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 319.204908503 and 319.218008503 and p.dec between 2.42314444444 and 2.43624444444' 
+
+java -jar casjobs.jar extract -b object_93 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_94 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 328.022500025 and 328.039500025 and p.dec between -27.5391111111 and -27.5221111111' 
 
+java -jar casjobs.jar extract -b object_94 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_95 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 330.382516776 and 330.390816776 and p.dec between -32.0330388889 and -32.0247388889' 
+
+java -jar casjobs.jar extract -b object_95 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_96 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 338.207583503 and 338.216583503 and p.dec between -60.5497777778 and -60.5407777778' 
 
+java -jar casjobs.jar extract -b object_96 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_97 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 340.117516768 and 340.135316768 and p.dec between 3.3491 and 3.3669' 
+
+java -jar casjobs.jar extract -b object_97 -F -type CSV -d ./Models/
 
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_98 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 350.413200136 and 350.426800136 and p.dec between 5.45331111111 and 5.46691111111' 
 
+java -jar casjobs.jar extract -b object_98 -F -type CSV -d ./Models/
+
 java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_99 FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between 350.522550024 and 350.537450024 and p.dec between 19.7322722222 and 19.7471722222' 
+
+java -jar casjobs.jar extract -b object_99 -F -type CSV -d ./Models/
 

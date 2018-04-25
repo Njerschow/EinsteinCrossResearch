@@ -60,26 +60,10 @@ for i in num:
 	decbot = dec[i]-size[i]
 	queries.write("java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_"+str(i)+" FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between "+str(rabot)+" and "+str(ratop)+" and p.dec between "+str(decbot)+" and "+str(dectop)+"' \n\n")
 	# and now to download table:
-	#queries.write("java -jar casjobs.jar extract -b object_"+str(i)+" -F -type CSV -d ./Models/\n\n")
+	queries.write("java -jar casjobs.jar extract -b object_"+str(i)+" -F -type CSV -d ./Models/\n\n")
 	# and now to drop table remotely:
 	#queries.write("java -jar casjobs.jar execute -t 'mydb/1' 'drop table object_"+str(i)+"'\n\n")
 
 queries.close()
 
 print("donezo")
-# ra = 0
-# if (sys.argv[4]=="ra"):
-# 	ra = 1
-
-# h = sys.argv[1]
-# m = sys.argv[2]
-# s = sys.argv[3]
-
-# converted = 0
-
-# if (ra==1):
-# 	converted = float(h)*15. + float(m)*0.25 + float(s)*0.00416667
-# else:
-# 	converted = float(h) + float(m)/60. + float(s)/3600.
-
-# print(converted)
