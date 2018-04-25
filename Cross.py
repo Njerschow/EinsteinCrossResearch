@@ -47,8 +47,6 @@ with open('./lenses.csv') as csvfile:
     	reuseCtr+=1
 
 
-
-
 # ra = 0
 # if (sys.argv[4]=="ra"):
 # 	ra = 1
