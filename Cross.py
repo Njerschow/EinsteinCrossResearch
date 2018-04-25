@@ -2,7 +2,7 @@ import sys
 import numpy as np
 import csv
 
-WIGGLE_ROOM=0.003
+WIGGLE_ROOM=0.005
 
 reuseCtr = 0;
 num = []
@@ -60,9 +60,9 @@ for i in num:
 	decbot = dec[i]-size[i]
 	queries.write("java -jar casjobs.jar run 'SELECT ALL p.objid,p.ra,p.dec,pz.z INTO mydb.object_"+str(i)+" FROM PhotoObj AS p JOIN Photoz AS pz ON pz.objid = p.objid where p.ra between "+str(rabot)+" and "+str(ratop)+" and p.dec between "+str(decbot)+" and "+str(dectop)+"' \n\n")
 	# and now to download table:
-	queries.write("java -jar casjobs.jar extract -b object_"+str(i)+" -F -type CSV -d ./Models/\n\n")
+	#queries.write("java -jar casjobs.jar extract -b object_"+str(i)+" -F -type CSV -d ./Models/\n\n")
 	# and now to drop table remotely:
-	queries.write("java -jar casjobs.jar execute -t 'mydb/1' 'drop table object_"+str(i)+"'\n\n")
+	#queries.write("java -jar casjobs.jar execute -t 'mydb/1' 'drop table object_"+str(i)+"'\n\n")
 
 queries.close()
 
