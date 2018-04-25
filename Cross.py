@@ -2,7 +2,7 @@ import sys
 import numpy as np
 import csv
 
-WIGGLE_ROOM=0.005
+WIGGLE_ROOM=0.0042 # standard is 0.0041 but ill allow for a little bit extra
 
 reuseCtr = 0;
 num = []
@@ -62,7 +62,7 @@ for i in num:
 	# and now to download table:
 	queries.write("java -jar casjobs.jar extract -b object_"+str(i)+" -F -type CSV -d ./Models/\n\n")
 	# and now to drop table remotely:
-	#queries.write("java -jar casjobs.jar execute -t 'mydb/1' 'drop table object_"+str(i)+"'\n\n")
+	#queries.write("java -jar casjobs.jar execute -t 'mydb/2' 'drop table object_"+str(i)+"'\n\n")
 
 queries.close()
 
